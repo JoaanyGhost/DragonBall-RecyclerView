@@ -1,15 +1,14 @@
-package com.example.recyclerviewexample.adapter
+package com.example.recyclerviewexample.adapter.detalles
 
 import android.view.View
-
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.example.recyclerviewexample.SuperHero
 import com.example.recyclerviewexample.databinding.ItemSuperheroBinding
 
-class SuperHeroViewHolder(view: View): RecyclerView.ViewHolder(view) {
+class SuperHeroViewDetallesHolder(view: View): RecyclerView.ViewHolder(view) {
 
-    val binding = ItemSuperheroBinding.bind(view)
+    val bindingDetalles = ItemSuperheroBinding.bind(view)
 
     /*
     val superHeroName = view.findViewById<TextView>(R.id.TextViewSuperHeroName)
@@ -20,11 +19,15 @@ class SuperHeroViewHolder(view: View): RecyclerView.ViewHolder(view) {
 
 
     fun PasarDatos(superHeroModel: SuperHero, onClickListener: (SuperHero) -> Unit){
-        binding.TextViewSuperHeroName.text = superHeroModel.nameSuperHero
-        binding.TextViewSuperHeroRealNombre.text = superHeroModel.realName
-        binding.TextViewEmpresa.text = superHeroModel.publisher
-        Glide.with(binding.imageViewSuperHero.context).load(superHeroModel.image).into(binding.imageViewSuperHero)
+
+        bindingDetalles.TextViewSuperHeroName.text = superHeroModel.nameSuperHero
+
+
+        bindingDetalles.TextViewSuperHeroRealNombre.text = superHeroModel.realName
+        bindingDetalles.TextViewEmpresa.text = superHeroModel.publisher
+        Glide.with(bindingDetalles.imageViewSuperHero.context).load(superHeroModel.image).into(bindingDetalles.imageViewSuperHero)
 
         itemView.setOnClickListener {onClickListener(superHeroModel)}
+
     }
 }

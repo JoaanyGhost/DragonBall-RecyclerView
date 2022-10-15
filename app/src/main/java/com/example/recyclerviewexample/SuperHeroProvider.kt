@@ -6,95 +6,38 @@ class SuperHeroProvider {
 
         val superHeroList = listOf<SuperHero>(
             SuperHero(
-                "Spiderman",
-                "Marvel",
-                "Peter Parker",
-                "https://static1.cbrimages.com/wordpress/wp-content/uploads/2019/12/The-Amazing-Spider-Man-2-Header.jpg"
+                "Son Goku",
+                "Sayayin",
+                "Kakaroto",
+                "Lorem Ipsum is simply dummy text of the printing and " +
+                        "typesetting industry. Lorem Ipsum has been the industry's " +
+                        "standard dummy text ever since the 1500s, when an unknown printer took a " +
+                        "galley of type and scrambled it to make a type specimen book.",
+                "https://media.gq.com.mx/photos/5f6ce732bc946e88f6c96320/master/pass/goky%20ultra%20instinto.jpg"
             ),
+
             SuperHero(
-                "Flash",
-                "DC Comics",
-                "Barry Alen",
-                "https://64.media.tumblr.com/c5eb6855187b54cf6c3b0912c2c9ac13/3b83bb53fdeb6c1f-d2/s540x810/9cd202385b5fda0ca660f1945e8b160e72744ef7.gifv"
+                "Vegeta",
+                "Sayayin",
+                "Principe Sayayin",
+                "Lorem Ipsum is simply dummy text of the printing and " +
+                        "typesetting industry. Lorem Ipsum has been the industry's " +
+                        "standard dummy text ever since the 1500s, when an unknown printer took a " +
+                        "galley of type and scrambled it to make a type specimen book.",
+                "https://laverdadnoticias.com/__export/1594611019243/sites/laverdad/img/2020/07/12/vegeta_super_saiyan_blue_evolved.png_673822677.png"
             ),
+
             SuperHero(
-                "Batman",
-                "Dc Comics",
-                "Bruce Wayne",
-                "https://w0.peakpx.com/wallpaper/335/260/HD-wallpaper-batman-cloud-black-darck-graphy.jpg"
-            ),
-            SuperHero(
-                "Spiderman",
-                "Marvel",
-                "Peter Parker",
-                "https://static1.cbrimages.com/wordpress/wp-content/uploads/2019/12/The-Amazing-Spider-Man-2-Header.jpg"
-            ),
-            SuperHero(
-                "Flash",
-                "DC Comics",
-                "Barry Alen",
-                "https://64.media.tumblr.com/c5eb6855187b54cf6c3b0912c2c9ac13/3b83bb53fdeb6c1f-d2/s540x810/9cd202385b5fda0ca660f1945e8b160e72744ef7.gifv"
-            ),
-            SuperHero(
-                "Batman",
-                "Dc Comics",
-                "Bruce Wayne",
-                "https://w0.peakpx.com/wallpaper/335/260/HD-wallpaper-batman-cloud-black-darck-graphy.jpg"
-            ),
-            SuperHero(
-                "Spiderman",
-                "Marvel",
-                "Peter Parker",
-                "https://static1.cbrimages.com/wordpress/wp-content/uploads/2019/12/The-Amazing-Spider-Man-2-Header.jpg"
-            ),
-            SuperHero(
-                "Flash",
-                "DC Comics",
-                "Barry Alen",
-                "https://64.media.tumblr.com/c5eb6855187b54cf6c3b0912c2c9ac13/3b83bb53fdeb6c1f-d2/s540x810/9cd202385b5fda0ca660f1945e8b160e72744ef7.gifv"
-            ),
-            SuperHero(
-                "Batman",
-                "Dc Comics",
-                "Bruce Wayne",
-                "https://w0.peakpx.com/wallpaper/335/260/HD-wallpaper-batman-cloud-black-darck-graphy.jpg"
-            ),
-            SuperHero(
-                "Spiderman",
-                "Marvel",
-                "Peter Parker",
-                "https://static1.cbrimages.com/wordpress/wp-content/uploads/2019/12/The-Amazing-Spider-Man-2-Header.jpg"
-            ),
-            SuperHero(
-                "Flash",
-                "DC Comics",
-                "Barry Alen",
-                "https://64.media.tumblr.com/c5eb6855187b54cf6c3b0912c2c9ac13/3b83bb53fdeb6c1f-d2/s540x810/9cd202385b5fda0ca660f1945e8b160e72744ef7.gifv"
-            ),
-            SuperHero(
-                "Batman",
-                "Dc Comics",
-                "Bruce Wayne",
-                "https://w0.peakpx.com/wallpaper/335/260/HD-wallpaper-batman-cloud-black-darck-graphy.jpg"
-            ),
-            SuperHero(
-                "Spiderman",
-                "Marvel",
-                "Peter Parker",
-                "https://static1.cbrimages.com/wordpress/wp-content/uploads/2019/12/The-Amazing-Spider-Man-2-Header.jpg"
-            ),
-            SuperHero(
-                "Flash",
-                "DC Comics",
-                "Barry Alen",
-                "https://64.media.tumblr.com/c5eb6855187b54cf6c3b0912c2c9ac13/3b83bb53fdeb6c1f-d2/s540x810/9cd202385b5fda0ca660f1945e8b160e72744ef7.gifv"
-            ),
-            SuperHero(
-                "Batman",
-                "Dc Comics",
-                "Bruce Wayne",
-                "https://w0.peakpx.com/wallpaper/335/260/HD-wallpaper-batman-cloud-black-darck-graphy.jpg"
+                "Son Goku",
+                "Sayayin",
+                "Kakaroto",
+                "Lorem Ipsum is simply dummy text of the printing and " +
+                        "typesetting industry. Lorem Ipsum has been the industry's " +
+                        "standard dummy text ever since the 1500s, when an unknown printer took a " +
+                        "galley of type and scrambled it to make a type specimen book.",
+                "https://media.gq.com.mx/photos/5f6ce732bc946e88f6c96320/master/pass/goky%20ultra%20instinto.jpg"
             )
+
         )
     }
 

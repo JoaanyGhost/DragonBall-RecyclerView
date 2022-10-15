@@ -17,7 +17,7 @@
         <ImageView
             android:id="@+id/imageViewSuperHero"
             android:layout_width="150dp"
-            android:layout_height="wrap_content"
+            android:layout_height="150dp"
             android:layout_marginStart="8dp"
             android:layout_marginTop="16dp"
             android:layout_marginBottom="16dp"
@@ -25,7 +25,7 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             tools:background="@color/black"
-            android:src="@drawable/ic_launcher_foreground"/>
+            android:src="@drawable/goku"/>
 
         <TextView
             android:id="@+id/TextViewSuperHeroName"

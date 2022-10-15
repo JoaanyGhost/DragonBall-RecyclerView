@@ -1,6 +1,7 @@
 package com.example.recyclerviewexample.adapter
 
 import android.view.LayoutInflater
+import android.view.View
 import android.view.View.OnClickListener
 import android.view.View.inflate
 import android.view.ViewGroup
